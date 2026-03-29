@@ -10,6 +10,10 @@
 
 DeepMelody is a project that focuses on generating personalized music recommendations by analyzing the prominence of individual instruments in audio tracks. Using machine learning techniques, the project aims to provide users with tailored music recommendations based on their instrumental preferences.
 
+## Detailed Documentation
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shivamshinde123/Instrument-Based-Music-Recommendation)
+
 ## Project Overview
 
 The core of this project uses the **Slakh2100 dataset**, a collection of labeled multitrack audio files containing various genres. We built a **U-Net-based model** for music source separation, isolating instrument spectrograms. From these spectrograms, we extract **instrument embeddings**, which represent the prominence of each instrument in a track. By calculating the cosine similarity between these embeddings, the system generates personalized music recommendations.
